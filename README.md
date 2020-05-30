@@ -1,5 +1,5 @@
 # Using Wilson Central Terminal ECG database clustering the patients data.
-# t-SNE visualization. & implimentaion of DBScan.
+# t-SNE visualization. & implimentaion of DBScan on WCTECGdb
 # Ackowladgement:
 
 Moeinzadeh, H., & Gargiulo, G. (2019). Wilson Central Terminal ECG Database (version 1.0.1). 
