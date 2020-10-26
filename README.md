@@ -16,17 +16,17 @@ The ECG signals were recorded from 92 patients (27 were female). Each recording 
 
 We applied the low pass filter, and dc-removal filter to clean the dataset, and improve the signal to noise ratio. Both the raw and cleaned data are included in this dataset. The raw data is specified by -Raw in the signal names (e.g. V1-Raw). Each segment contains 37 signals listed below:
 
-          Raw
-          Three limb leads (I, II, III)
-          Six precordial leads (V1: V6)
-          Three limb potentials (LA, RA, LL)
-          Six true unipolar chest leads (UV1: UV6)  
-          
-          Clean
-          Three limb leads (I, II, III)
-          Six precordial leads (V1: V6)
-          Three limb potentials (LA, RA, LL)
-          Six true unipolar chest leads (UV1: UV6) 
-          WCT
+         * Raw
+                    Three limb leads (I, II, III)
+                    Six precordial leads (V1: V6)
+                    Three limb potentials (LA, RA, LL)
+                    Six true unipolar chest leads (UV1: UV6)  
+
+         * Clean
+                    Three limb leads (I, II, III)
+                    Six precordial leads (V1: V6)
+                    Three limb potentials (LA, RA, LL)
+                    Six true unipolar chest leads (UV1: UV6) 
+                    WCT
           
 Dataset included age, gender, and patient diagnosis in the header file for each segment. system did not receive the patient diagnosis from the hospital for ten patients. Consequently, patient diagnosis is filled as "not reported"  for these patients.
